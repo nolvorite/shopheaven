@@ -1,4 +1,10 @@
-# user-registration
+# base-registration
+
+Copied from user-registration by Michael Soriano. Not for public use lol
+
+1. Go to base-registration.sql and change 
+
+----------------------
 
 A simple 2 step registration process for users using the CodeIgniter Framework. The steps for registration is below:
 
