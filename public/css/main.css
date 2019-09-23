@@ -1,14 +1,9 @@
 body {
-  padding-top: 100px;
-  padding-bottom: 40px;
-  background-color: #eee;
-  text-align:center;
+  background:#faeded;
 }
 
 .form-signin {
-  max-width: 330px;
-  padding: 15px;
-  margin: 0 auto;
+  margin:10px 30px;
 }
 .form-signin .form-control {
   position: relative;
@@ -16,8 +11,7 @@ body {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 10px;
-  font-size: 16px;
+
 }
 .form-signin .form-control:focus {
   z-index: 2;
@@ -56,3 +50,20 @@ h5 span {
 .col-lg-offset-4 p {
     margin-bottom:3px;
 }
+
+.product-desc{font-size:13px;}
+h3,h4,h5{    font-family: "Lucida Handwriting";}
+#footer{background:#a2c5c9;color:#fff;padding:20px 0 10px;}
+#footer a{color:#fff;}
+#footer .links a{display:block}
+#content{background:#f4a6a6;padding:25px 0}
+#nav{background:#a2c5c9;padding:15px 0;}
+#nav a{color:#000;text-decoration:underline;}
+#nav a.btn{text-decoration:none;}
+h5 {
+    margin-top: 40px;
+}
+h5:first-child {
+    margin-top: 0;
+}
+#admin_menu a{color:#000;display:block;}
