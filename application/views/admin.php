@@ -9,6 +9,7 @@
 			<a href="<?php echo site_url(); ?>main/admin/add_product">Add Product</a>
 			<a href="<?php echo site_url(); ?>main/admin/add_category">Add Category</a>
 			<a href="<?php echo site_url(); ?>main/admin/manage_users">Manage Users</a>
+			<a href="<?php echo site_url(); ?>main/admin/view_orders">View Orders</a>
 		</div>
 		<div class="col-md-7 col-lg-9">
 			<?php if(isset($panel)){ ?>

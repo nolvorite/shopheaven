@@ -17,12 +17,12 @@
     			<div class="col-md-6 col-lg-3">
     				<h5>Contact Info</h5>
     				<p class="textt">
-    					1234 Address St.
+    					<strong>Address:</strong>  891 Prudencio St. Sampaloc, Manila City
     				</p>
     				<p class="textt">
-    					<strong>Phone:</strong> 1-666-420-6969<br>
-    					<strong>Email:</strong> rapbeh69420@gmail.com
-    				</p>
+    					<strong>Phone:</strong> 09666853449<br>
+    					<strong>Email:</strong> xeitanp@yahoo.com<br>
+
     			</div>
     			<div class="col-md-6 col-lg-3">
     				<h5>Social Media</h5>

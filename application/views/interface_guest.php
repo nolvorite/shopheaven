@@ -1,7 +1,13 @@
 <div class="col-sm-12">
     <h3>Hello, Guest!</h3>
     <p>
-      Welcome to Xeishoppe! Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      Welcome to Xeishoppe! Your one-stop online destinatation for everything fashionable in the Philippines. Bringing you insights on global and local trends, we feature your favorite international desginers as well as the most relevant Filipino Brands.
+</p>
+<p>
+      We constanly update ourselves with the latest fashion trends to make sure we offer you only the most exciting styles for clothing, shoes, bags, watches, beauty, and all things fashion.
+</p>
+<p>
+      At Xeishoppe, we believe your shopping experience should be easy and fun.
     </p>
 </div>
 

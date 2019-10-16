@@ -142,6 +142,7 @@ class Main extends CI_Controller {
                     case "add_product":
                     case "add_category":
                     case "manage_users":
+                    case "view_orders":
                         $data = ['panel' => $panel];
 
                         if($panel === "add_product" || $panel === "add_category"){
@@ -152,6 +153,10 @@ class Main extends CI_Controller {
                         if($panel === "manage_users"){
                             $data['solo'] = $id !== NULL;
                             $data['users'] = $this->listOfUsers($id);
+                        }
+
+                        if($panel === "view_orders"){
+                            $data['orders'] = $this->getAllOrders();
                         }
 
                         $this->load->view("admin", $data);  
@@ -227,6 +232,11 @@ class Main extends CI_Controller {
         redirect(site_url()."main/admin/add_product");
     }
 
+    private function getAllOrders(){
+        $orders = $this->db->query("SELECT orders.order_id,orders.quantity,orders.user_id,orders.product_id,.orders.order_date,products.product_name,products.price FROM orders INNER JOIN products ON orders.product_id = products.product_id ORDER BY order_date DESC");
+        return $orders->result_array();
+    }
+
     public function orders($id = NULL){
 
         if($this->isLoggedIn()){
@@ -235,7 +245,7 @@ class Main extends CI_Controller {
 
             $data = ['id' => $id];
 
-            $orders = $this->db->query("SELECT * FROM orders INNER JOIN products ON orders.product_id = products.product_id WHERE user_id = " . intval($this->session->userdata['id']));
+            $orders = $this->db->query("SELECT orders.order_id,orders.quantity,orders.user_id,orders.product_id,.orders.order_date,products.product_name,products.price FROM orders INNER JOIN products ON orders.product_id = products.product_id WHERE user_id = " . intval($this->session->userdata['id']));
             $data['orders'] = $orders->result_array();
 
             if($id !== NULL){
